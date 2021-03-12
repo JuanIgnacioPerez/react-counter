@@ -1,0 +1,26 @@
+{
+  "name": "Counter",
+  "displayName": "Counter",
+  "expo": {
+    "name": "Counter",
+    "slug": "Counter",
+    "version": "1.0.2",
+    "platforms": ["ios", "android", "web"],
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "versionCode": 5,
+      "package": "counter.mobile",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"],
+      "config": {}
+    },
+    "ios": {
+      "bundleIdentifier": "counter.mobile",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCrQKhZqYxPcqhA_T9NW_eHT_ykMPAibe0"
+      },
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses the location to suggest an address to the user."
+      }
+    }
+  }
+}
